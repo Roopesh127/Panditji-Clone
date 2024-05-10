@@ -1,0 +1,451 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family:Montserrat;
+}
+.navContainer{
+    width: 100%;
+    height: 107px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 80%;
+    height: 100%;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navlink{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 5px;
+    width: 463px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/* hero section start */
+.hero{
+    background-image: url("./Images/Mask\ groupbackgroun1.png");
+    background-repeat: none;
+    height: 700px;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    color: #ffffff;
+}
+.hero-Book{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17.07px;
+}
+.hero-h1{
+    height: 152px;
+    width: 548px;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 76px;
+    text-align: center;
+    
+}
+.hero-para{
+    height: 54px;
+    width: 592px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    
+}
+.hero-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 242px;
+    height: 48px;
+    gap: 30px;
+    background-color: #ffffff;
+    color: #E9983F;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19.5px;
+    padding: 12px, 20px, 12px, 20px;
+    margin-top: 5px;
+}
+.hero2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100wh;
+    /* margin-top: 100px; */
+    padding: 130px;
+}
+.hero2-main{
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    /* height: 1135px;
+    width: 517px; */
+    gap: 45px;
+}
+.hero2-left{
+    /* height: 517px;
+    width: 458px; */
+    overflow: hidden;
+}
+.hero2-left img{
+    height: 100%;
+    width: 100%;
+    /* overflow: hidden; */
+}
+.hero2-right{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: start;
+    width: 555px;
+    height: 395px;
+    gap: 5px;
+
+}
+.hero2-about{
+    width: 63px;
+    height: 17px;
+    font-weight: 600;
+    color: #1808075E;
+}
+.hero2-panditName{
+    width: 488px;
+    height: 126px;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 39.01px;
+    color: #180807;
+    border-left: 5px solid #E9983F;
+    padding-left: 5px;
+}
+.hero2-dsc{
+    width: 555px;
+    height: 132px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #180807;
+}
+
+/* hero -3 start */
+
+.hero3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100wh;
+    padding: 130px;
+    background-color: #F2EBE387;
+}
+.hero3-main{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: start;
+    gap: 45px;
+}
+.hero3-left{
+    overflow: hidden;
+}
+.hero3-left img{
+    height: 100%;
+    width: 100%;
+}
+.hero3-right{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 607px;
+    height: 408px;
+    gap: 12px;
+
+}
+.hero3-about{
+    width: 63px;
+    height: 17px;
+    font-weight: 600;
+    color: #1808075E;
+}
+.hero3-panditName{
+    width: 488px;
+    height: 78px;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 39.01px;
+    color: #180807;
+    
+}
+.hero3-dsc{
+    width: 555px;
+    height: 66px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #180807;
+}
+.hero3-offer-money{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+
+.hero4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+    padding: 10px;
+    text-align: center;
+
+}
+
+
+.card-heading{
+    margin: 10px;
+}
+
+.card-heading p{
+    font-size: 14px;
+    font-weight: 600;
+    color: #1808075E;
+    margin-top: 3px;
+}
+
+
+.card-heading h1{
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 39.01px;
+    margin-top: 3px;
+}
+
+.card-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 22px;
+    margin-bottom: 25px;
+
+}
+
+
+.card{
+    height: 415px;
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 18px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+
+}
+
+
+
+.hero5{
+    background: url("./Images/Mask groupbook kaal sharp.png");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.hero-5-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 20px;
+    text-align: center;
+    color: #ffffff;
+    
+
+}
+
+
+.hero-5-container p{
+    
+    height: 17px;
+
+
+}
+
+
+
+.hero-5-container h3{
+    width: 488px;
+    height: fit-content;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39.01px;
+    
+}
+
+
+
+.hero6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100wh;
+    /* margin-top: 100px; */
+    padding: 130px;
+    background-color: #F2EBE3
+    
+    ;
+
+    gap: 20px;
+
+}
+
+
+.hero6-main{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    /* height: 1135px;
+    width: 517px; */
+    gap: 45px;
+
+}
+
+
+input{
+    display: flex;
+    
+    width: 555px;
+    height: 54px;
+    background-color: #FFFFFF;
+    color: #6A6A6A;
+    padding: 5px;
+    
+    margin-bottom: 10px;
+}
+
+
+
+
+.hero6-left{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: start;
+    width: 424px;
+    height: 395px;
+    gap: 5px;
+}
+
+
+
+
+
+/* footer */
+
+
+.footer-contaner{
+    background: black;
+    color: #ffff;
+    padding: 80px;
+}
+
+
+.footer-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+
+.coy-about{
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    align-items: start;
+    gap: 13px;
+
+}
+
+
+.coy-about p{
+    width: 293px;
+    height: 44px;
+    font-size: 16px;
+    font-weight: 400;
+    
+}
+
+.footer-link{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.footer-link a{
+    color: #FFFFFF;
+    font-size: 16px;
+}
+
+
+.social-icon{
+    display: flex;
+    justify-content: stretch;
+    align-items: center;
+    gap: 18px;
+    margin-top: 7px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
